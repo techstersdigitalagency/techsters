@@ -35,7 +35,7 @@ function ProjectView({ p }) {
       <header id="hd" className="s"><div className="wrap nv">
         <Link to="/" className="lg" aria-label="Techsters home">
           <img src="/techsters-logo.png" alt="Techsters logo" />
-          Techsters
+          <span>Techsters</span>
         </Link>
         <Link to="/#book" className="btn b1" style={{ padding: '11px 22px' }}>Book consultation</Link>
       </div></header>
