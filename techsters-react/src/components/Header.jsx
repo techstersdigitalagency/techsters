@@ -23,11 +23,7 @@ export default function Header() {
     <header id="hd" className={scrolled ? 's' : ''}>
       <div className="wrap nv">
         <a href="#home" className="lg" aria-label="Techsters home">
-          <svg viewBox="0 0 48 48">
-            <defs><linearGradient id="lgx" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#ff2e63" /><stop offset=".5" stopColor="#7c3cff" /><stop offset="1" stopColor="#2dffb3" /></linearGradient></defs>
-            <path d="M24 3l18 10.5v21L24 45 6 34.5v-21z" fill="#0a0f1e" stroke="url(#lgx)" strokeWidth="2.5" />
-            <text x="24" y="30" textAnchor="middle" fontFamily="Unbounded,sans-serif" fontWeight="800" fontSize="15" fill="#fff">TS</text>
-          </svg>
+          <img src="/techsters-logo.png" alt="Techsters logo" />
           Techsters
         </a>
         <button id="mt" aria-label="Menu" aria-expanded={open} onClick={() => setOpen(!open)}>&#9776;</button>
